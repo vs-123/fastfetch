@@ -2424,6 +2424,17 @@ static const FFlogo K[] = {
         .colorKeys = FF_COLOR_FG_BLUE,
         .colorTitle = FF_COLOR_FG_DEFAULT,
     },
+    // Kalium Void
+    {
+        .names = { "kalium" },
+        .type = FF_LOGO_LINE_TYPE_SMALL_BIT,
+        .lines = FASTFETCH_DATATEXT_LOGO_KALIUM,
+        .colors = {
+            FF_COLOR_FG_WHITE,
+        },
+        .colorKeys = FF_COLOR_FG_MAGENTA,
+        .colorTitle = FF_COLOR_FG_DEFAULT,
+    },
     // Kalpa Desktop
     {
         .names = { "kalpa-desktop" },

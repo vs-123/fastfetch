@@ -344,6 +344,9 @@ void ffDetectOSImpl(FFOSResult* os) {
             ffStrbufSetS(&os->id, "lmde");
             ffStrbufSetS(&os->idLike, "linuxmint");
         }
+    } else if (ffStrbufEqualS(&os->id, "KaliumVoid") || ffStrbufEqualS(&os->id, "kalium")) {
+       ffStrbufSetS(&os->id, "kalium");
+       ffStrbufClear(&os->idLike);
     }
 #endif
 }
