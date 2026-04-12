@@ -1,0 +1,8 @@
+= FASTFETCH
+
+Modified to add Kalium Void support
+
+== LICENSE
+
+AGPLV3.0 or later.
+
