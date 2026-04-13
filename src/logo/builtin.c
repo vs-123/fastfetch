@@ -2,6 +2,9 @@
 #include "logo_builtin.h"
 #include "common/color.h"
 
+#define FASTFETCH_DATATEXT_LOGO_KALIUM "   ███████\n ██████████             ██████\n ███    ████          ████████\n █████   ███        █████\n  ████    ██      █████\n         ███    █████\n        ███    █████\n        ███ ██████\n       █████████\n       █████████\n      ██████  ███\n     ████      ██\n    ███        ██\n   ████        ███   ██\n  ████         ████████\n  ███           ██████"
+
+
 const FFlogo ffLogoUnknown = {
     .names = { "unknown" },
     .lines = FASTFETCH_DATATEXT_LOGO_UNKNOWN,
